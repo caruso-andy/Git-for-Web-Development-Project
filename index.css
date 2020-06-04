@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -7,7 +7,7 @@
   display:inline-block;
   color: white;
   width:7%;
-  margin-left:18%;
+  margin-left:19%;
   text-align: center;
   text-decoration: none;
   padding-top: 10px;  
@@ -26,6 +26,7 @@
 .title {
   font-family: 'Chelsea Market', cursive;
   text-align: center;
+  font-size: 60px;
 }
 .leftBox {
   width:35%;
@@ -91,4 +92,34 @@
   }
   .sectionThree p {
     padding: 0 40%;
+  }
+  footer {  
+    width: 100%;
+    text-align: center; 
+  }
+  .footerImg img {
+    height: 200px;
+    width: 85%;
+  }
+  .footerButtons a{
+      display:inline-block;
+      color: white;
+      width:7%;
+      margin-left:9%;
+      margin-top: 1%;
+      margin-right: 9%;
+      text-align: center;
+      text-decoration: none;
+      padding: 5px;
+      padding-top: 5px;  
+      border-radius:10px;
+  }
+  .footerButtons .visit{
+    background-color: #FF764E;
+  }
+  .footerButtons .learn {
+    background-color: #5ED3EB;
+  }
+  .footerButtons .involve {
+    background-color: #FFCD69;
   }
