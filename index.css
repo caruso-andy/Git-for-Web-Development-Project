@@ -47,7 +47,6 @@
   display:inline-block;
   }
   header {
-    padding-bottom: 20%;
     margin: 5% auto;
     height: 10%;
   }
@@ -56,4 +55,40 @@
     text-align: center;
     padding-bottom: 35px;
     font-weight: bold;
+  }
+  .sectionOne{
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    padding: 0 10%;
+    font-size: 18px;
+    margin: 0 10%;
+  }
+  .campfire {
+    text-align: center;
+    padding: 15px;
+  }
+  .campfire img{
+    width: 120px;
+    height: 120px;
+  }
+  .sectionTwo {
+    text-align: center;
+  }
+  .sectionTwo p {
+    padding: 0 40%;
+  }
+  .bus {
+    text-align: center;
+    padding: 15px;
+  }
+  .bus img{    
+    width: 120px;
+    height: 120px;
+  }
+  .sectionThree {    
+    text-align: center;
+  }
+  .sectionThree p {
+    padding: 0 40%;
   }
